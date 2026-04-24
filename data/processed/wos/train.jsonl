@@ -1,0 +1,120 @@
+{"id": "train_0", "text": "sample text 0 for wos", "labels": ["L5"]}
+{"id": "train_1", "text": "sample text 1 for wos", "labels": ["L3"]}
+{"id": "train_2", "text": "sample text 2 for wos", "labels": ["L3"]}
+{"id": "train_3", "text": "sample text 3 for wos", "labels": ["L6"]}
+{"id": "train_4", "text": "sample text 4 for wos", "labels": ["L4"]}
+{"id": "train_5", "text": "sample text 5 for wos", "labels": ["L6"]}
+{"id": "train_6", "text": "sample text 6 for wos", "labels": ["L1"]}
+{"id": "train_7", "text": "sample text 7 for wos", "labels": ["L5"]}
+{"id": "train_8", "text": "sample text 8 for wos", "labels": ["L3"]}
+{"id": "train_9", "text": "sample text 9 for wos", "labels": ["L5"]}
+{"id": "train_10", "text": "sample text 10 for wos", "labels": ["L3"]}
+{"id": "train_11", "text": "sample text 11 for wos", "labels": ["L1"]}
+{"id": "train_12", "text": "sample text 12 for wos", "labels": ["L1"]}
+{"id": "train_13", "text": "sample text 13 for wos", "labels": ["L4"]}
+{"id": "train_14", "text": "sample text 14 for wos", "labels": ["L2", "L1"]}
+{"id": "train_15", "text": "sample text 15 for wos", "labels": ["L6"]}
+{"id": "train_16", "text": "sample text 16 for wos", "labels": ["L0", "L1"]}
+{"id": "train_17", "text": "sample text 17 for wos", "labels": ["L2", "L3"]}
+{"id": "train_18", "text": "sample text 18 for wos", "labels": ["L5"]}
+{"id": "train_19", "text": "sample text 19 for wos", "labels": ["L1"]}
+{"id": "train_20", "text": "sample text 20 for wos", "labels": ["L4"]}
+{"id": "train_21", "text": "sample text 21 for wos", "labels": ["L2", "L1"]}
+{"id": "train_22", "text": "sample text 22 for wos", "labels": ["L4"]}
+{"id": "train_23", "text": "sample text 23 for wos", "labels": ["L5"]}
+{"id": "train_24", "text": "sample text 24 for wos", "labels": ["L0"]}
+{"id": "train_25", "text": "sample text 25 for wos", "labels": ["L5"]}
+{"id": "train_26", "text": "sample text 26 for wos", "labels": ["L0"]}
+{"id": "train_27", "text": "sample text 27 for wos", "labels": ["L3"]}
+{"id": "train_28", "text": "sample text 28 for wos", "labels": ["L5"]}
+{"id": "train_29", "text": "sample text 29 for wos", "labels": ["L2"]}
+{"id": "train_30", "text": "sample text 30 for wos", "labels": ["L4"]}
+{"id": "train_31", "text": "sample text 31 for wos", "labels": ["L0", "L3"]}
+{"id": "train_32", "text": "sample text 32 for wos", "labels": ["L6"]}
+{"id": "train_33", "text": "sample text 33 for wos", "labels": ["L0", "L4"]}
+{"id": "train_34", "text": "sample text 34 for wos", "labels": ["L7"]}
+{"id": "train_35", "text": "sample text 35 for wos", "labels": ["L5"]}
+{"id": "train_36", "text": "sample text 36 for wos", "labels": ["L1"]}
+{"id": "train_37", "text": "sample text 37 for wos", "labels": ["L0"]}
+{"id": "train_38", "text": "sample text 38 for wos", "labels": ["L0", "L7"]}
+{"id": "train_39", "text": "sample text 39 for wos", "labels": ["L5"]}
+{"id": "train_40", "text": "sample text 40 for wos", "labels": ["L1"]}
+{"id": "train_41", "text": "sample text 41 for wos", "labels": ["L3"]}
+{"id": "train_42", "text": "sample text 42 for wos", "labels": ["L3"]}
+{"id": "train_43", "text": "sample text 43 for wos", "labels": ["L6"]}
+{"id": "train_44", "text": "sample text 44 for wos", "labels": ["L4", "L7"]}
+{"id": "train_45", "text": "sample text 45 for wos", "labels": ["L1", "L5"]}
+{"id": "train_46", "text": "sample text 46 for wos", "labels": ["L3"]}
+{"id": "train_47", "text": "sample text 47 for wos", "labels": ["L6"]}
+{"id": "train_48", "text": "sample text 48 for wos", "labels": ["L7"]}
+{"id": "train_49", "text": "sample text 49 for wos", "labels": ["L1"]}
+{"id": "train_50", "text": "sample text 50 for wos", "labels": ["L2"]}
+{"id": "train_51", "text": "sample text 51 for wos", "labels": ["L1"]}
+{"id": "train_52", "text": "sample text 52 for wos", "labels": ["L4", "L0"]}
+{"id": "train_53", "text": "sample text 53 for wos", "labels": ["L1"]}
+{"id": "train_54", "text": "sample text 54 for wos", "labels": ["L5"]}
+{"id": "train_55", "text": "sample text 55 for wos", "labels": ["L2"]}
+{"id": "train_56", "text": "sample text 56 for wos", "labels": ["L4"]}
+{"id": "train_57", "text": "sample text 57 for wos", "labels": ["L0"]}
+{"id": "train_58", "text": "sample text 58 for wos", "labels": ["L7"]}
+{"id": "train_59", "text": "sample text 59 for wos", "labels": ["L3"]}
+{"id": "train_60", "text": "sample text 60 for wos", "labels": ["L6", "L2"]}
+{"id": "train_61", "text": "sample text 61 for wos", "labels": ["L5"]}
+{"id": "train_62", "text": "sample text 62 for wos", "labels": ["L1"]}
+{"id": "train_63", "text": "sample text 63 for wos", "labels": ["L2"]}
+{"id": "train_64", "text": "sample text 64 for wos", "labels": ["L2"]}
+{"id": "train_65", "text": "sample text 65 for wos", "labels": ["L5"]}
+{"id": "train_66", "text": "sample text 66 for wos", "labels": ["L4"]}
+{"id": "train_67", "text": "sample text 67 for wos", "labels": ["L6", "L7"]}
+{"id": "train_68", "text": "sample text 68 for wos", "labels": ["L0"]}
+{"id": "train_69", "text": "sample text 69 for wos", "labels": ["L1"]}
+{"id": "train_70", "text": "sample text 70 for wos", "labels": ["L1", "L2"]}
+{"id": "train_71", "text": "sample text 71 for wos", "labels": ["L2"]}
+{"id": "train_72", "text": "sample text 72 for wos", "labels": ["L6"]}
+{"id": "train_73", "text": "sample text 73 for wos", "labels": ["L5"]}
+{"id": "train_74", "text": "sample text 74 for wos", "labels": ["L6", "L4"]}
+{"id": "train_75", "text": "sample text 75 for wos", "labels": ["L1"]}
+{"id": "train_76", "text": "sample text 76 for wos", "labels": ["L7"]}
+{"id": "train_77", "text": "sample text 77 for wos", "labels": ["L0"]}
+{"id": "train_78", "text": "sample text 78 for wos", "labels": ["L3"]}
+{"id": "train_79", "text": "sample text 79 for wos", "labels": ["L5"]}
+{"id": "train_80", "text": "sample text 80 for wos", "labels": ["L3"]}
+{"id": "train_81", "text": "sample text 81 for wos", "labels": ["L7"]}
+{"id": "train_82", "text": "sample text 82 for wos", "labels": ["L2"]}
+{"id": "train_83", "text": "sample text 83 for wos", "labels": ["L0"]}
+{"id": "train_84", "text": "sample text 84 for wos", "labels": ["L2"]}
+{"id": "train_85", "text": "sample text 85 for wos", "labels": ["L7"]}
+{"id": "train_86", "text": "sample text 86 for wos", "labels": ["L7"]}
+{"id": "train_87", "text": "sample text 87 for wos", "labels": ["L0"]}
+{"id": "train_88", "text": "sample text 88 for wos", "labels": ["L6", "L0"]}
+{"id": "train_89", "text": "sample text 89 for wos", "labels": ["L3"]}
+{"id": "train_90", "text": "sample text 90 for wos", "labels": ["L1", "L6"]}
+{"id": "train_91", "text": "sample text 91 for wos", "labels": ["L4"]}
+{"id": "train_92", "text": "sample text 92 for wos", "labels": ["L3"]}
+{"id": "train_93", "text": "sample text 93 for wos", "labels": ["L1"]}
+{"id": "train_94", "text": "sample text 94 for wos", "labels": ["L4", "L5"]}
+{"id": "train_95", "text": "sample text 95 for wos", "labels": ["L1"]}
+{"id": "train_96", "text": "sample text 96 for wos", "labels": ["L5"]}
+{"id": "train_97", "text": "sample text 97 for wos", "labels": ["L4"]}
+{"id": "train_98", "text": "sample text 98 for wos", "labels": ["L5"]}
+{"id": "train_99", "text": "sample text 99 for wos", "labels": ["L3"]}
+{"id": "train_100", "text": "sample text 100 for wos", "labels": ["L2"]}
+{"id": "train_101", "text": "sample text 101 for wos", "labels": ["L6"]}
+{"id": "train_102", "text": "sample text 102 for wos", "labels": ["L7", "L0"]}
+{"id": "train_103", "text": "sample text 103 for wos", "labels": ["L3"]}
+{"id": "train_104", "text": "sample text 104 for wos", "labels": ["L3"]}
+{"id": "train_105", "text": "sample text 105 for wos", "labels": ["L7"]}
+{"id": "train_106", "text": "sample text 106 for wos", "labels": ["L5"]}
+{"id": "train_107", "text": "sample text 107 for wos", "labels": ["L6"]}
+{"id": "train_108", "text": "sample text 108 for wos", "labels": ["L5"]}
+{"id": "train_109", "text": "sample text 109 for wos", "labels": ["L4"]}
+{"id": "train_110", "text": "sample text 110 for wos", "labels": ["L0", "L3"]}
+{"id": "train_111", "text": "sample text 111 for wos", "labels": ["L6"]}
+{"id": "train_112", "text": "sample text 112 for wos", "labels": ["L0", "L2"]}
+{"id": "train_113", "text": "sample text 113 for wos", "labels": ["L7"]}
+{"id": "train_114", "text": "sample text 114 for wos", "labels": ["L3"]}
+{"id": "train_115", "text": "sample text 115 for wos", "labels": ["L7"]}
+{"id": "train_116", "text": "sample text 116 for wos", "labels": ["L7", "L1"]}
+{"id": "train_117", "text": "sample text 117 for wos", "labels": ["L0", "L7"]}
+{"id": "train_118", "text": "sample text 118 for wos", "labels": ["L7"]}
+{"id": "train_119", "text": "sample text 119 for wos", "labels": ["L6"]}

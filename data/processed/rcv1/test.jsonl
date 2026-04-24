@@ -1,0 +1,30 @@
+{"id": "test_0", "text": "sample text 0 for rcv1", "labels": ["L2"]}
+{"id": "test_1", "text": "sample text 1 for rcv1", "labels": ["L4"]}
+{"id": "test_2", "text": "sample text 2 for rcv1", "labels": ["L3", "L5"]}
+{"id": "test_3", "text": "sample text 3 for rcv1", "labels": ["L2"]}
+{"id": "test_4", "text": "sample text 4 for rcv1", "labels": ["L6"]}
+{"id": "test_5", "text": "sample text 5 for rcv1", "labels": ["L3"]}
+{"id": "test_6", "text": "sample text 6 for rcv1", "labels": ["L6"]}
+{"id": "test_7", "text": "sample text 7 for rcv1", "labels": ["L0"]}
+{"id": "test_8", "text": "sample text 8 for rcv1", "labels": ["L6"]}
+{"id": "test_9", "text": "sample text 9 for rcv1", "labels": ["L2"]}
+{"id": "test_10", "text": "sample text 10 for rcv1", "labels": ["L2"]}
+{"id": "test_11", "text": "sample text 11 for rcv1", "labels": ["L3"]}
+{"id": "test_12", "text": "sample text 12 for rcv1", "labels": ["L3"]}
+{"id": "test_13", "text": "sample text 13 for rcv1", "labels": ["L3"]}
+{"id": "test_14", "text": "sample text 14 for rcv1", "labels": ["L4"]}
+{"id": "test_15", "text": "sample text 15 for rcv1", "labels": ["L7"]}
+{"id": "test_16", "text": "sample text 16 for rcv1", "labels": ["L2"]}
+{"id": "test_17", "text": "sample text 17 for rcv1", "labels": ["L3"]}
+{"id": "test_18", "text": "sample text 18 for rcv1", "labels": ["L6", "L4"]}
+{"id": "test_19", "text": "sample text 19 for rcv1", "labels": ["L4"]}
+{"id": "test_20", "text": "sample text 20 for rcv1", "labels": ["L4"]}
+{"id": "test_21", "text": "sample text 21 for rcv1", "labels": ["L5", "L0"]}
+{"id": "test_22", "text": "sample text 22 for rcv1", "labels": ["L6"]}
+{"id": "test_23", "text": "sample text 23 for rcv1", "labels": ["L4"]}
+{"id": "test_24", "text": "sample text 24 for rcv1", "labels": ["L3"]}
+{"id": "test_25", "text": "sample text 25 for rcv1", "labels": ["L3"]}
+{"id": "test_26", "text": "sample text 26 for rcv1", "labels": ["L1"]}
+{"id": "test_27", "text": "sample text 27 for rcv1", "labels": ["L3"]}
+{"id": "test_28", "text": "sample text 28 for rcv1", "labels": ["L3", "L2"]}
+{"id": "test_29", "text": "sample text 29 for rcv1", "labels": ["L0"]}
