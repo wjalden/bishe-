@@ -1,0 +1,7 @@
+name: lse_hf_lt
+text_encoder: distilbert-base-uncased
+hidden_size: 768
+num_labels: 8
+use_label_semantic: true
+use_hier_fusion: true
+use_tail_loss: true

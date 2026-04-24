@@ -1,0 +1,6 @@
+name: rcv1
+train_path: data/processed/rcv1/train.jsonl
+val_path: data/processed/rcv1/val.jsonl
+test_path: data/processed/rcv1/test.jsonl
+hierarchy_path: data/processed/rcv1/hierarchy.json
+num_labels: 8

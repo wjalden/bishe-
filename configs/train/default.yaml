@@ -1,0 +1,11 @@
+seed: 42
+device: cpu
+epochs: 3
+batch_size: 8
+lr: 2.0e-4
+weight_decay: 0.01
+max_len: 128
+focal_gamma: 2.0
+lambda_hier: 0.2
+lambda_tail: 0.3
+save_dir: results/checkpoints

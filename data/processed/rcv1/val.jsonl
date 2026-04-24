@@ -1,0 +1,20 @@
+{"id": "val_0", "text": "sample text 0 for rcv1", "labels": ["L1", "L2"]}
+{"id": "val_1", "text": "sample text 1 for rcv1", "labels": ["L2"]}
+{"id": "val_2", "text": "sample text 2 for rcv1", "labels": ["L6"]}
+{"id": "val_3", "text": "sample text 3 for rcv1", "labels": ["L5"]}
+{"id": "val_4", "text": "sample text 4 for rcv1", "labels": ["L4"]}
+{"id": "val_5", "text": "sample text 5 for rcv1", "labels": ["L0"]}
+{"id": "val_6", "text": "sample text 6 for rcv1", "labels": ["L4"]}
+{"id": "val_7", "text": "sample text 7 for rcv1", "labels": ["L4", "L2"]}
+{"id": "val_8", "text": "sample text 8 for rcv1", "labels": ["L4", "L7"]}
+{"id": "val_9", "text": "sample text 9 for rcv1", "labels": ["L2"]}
+{"id": "val_10", "text": "sample text 10 for rcv1", "labels": ["L1"]}
+{"id": "val_11", "text": "sample text 11 for rcv1", "labels": ["L0"]}
+{"id": "val_12", "text": "sample text 12 for rcv1", "labels": ["L6"]}
+{"id": "val_13", "text": "sample text 13 for rcv1", "labels": ["L0"]}
+{"id": "val_14", "text": "sample text 14 for rcv1", "labels": ["L6"]}
+{"id": "val_15", "text": "sample text 15 for rcv1", "labels": ["L4"]}
+{"id": "val_16", "text": "sample text 16 for rcv1", "labels": ["L4"]}
+{"id": "val_17", "text": "sample text 17 for rcv1", "labels": ["L7"]}
+{"id": "val_18", "text": "sample text 18 for rcv1", "labels": ["L7"]}
+{"id": "val_19", "text": "sample text 19 for rcv1", "labels": ["L5", "L4"]}

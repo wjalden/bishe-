@@ -1,0 +1,4 @@
+name: hpt
+text_encoder: distilbert-base-uncased
+num_labels: 8
+notes: "EMNLP 2022 Hierarchy-aware Prompt Tuning scaffold"

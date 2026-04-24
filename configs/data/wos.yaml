@@ -1,0 +1,6 @@
+name: wos
+train_path: data/processed/wos/train.jsonl
+val_path: data/processed/wos/val.jsonl
+test_path: data/processed/wos/test.jsonl
+hierarchy_path: data/processed/wos/hierarchy.json
+num_labels: 8

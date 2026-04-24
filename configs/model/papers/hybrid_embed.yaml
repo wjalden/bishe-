@@ -1,0 +1,4 @@
+name: hybrid_embed
+text_encoder: distilbert-base-uncased
+num_labels: 8
+notes: "ESWA 2022 Hybrid embedding scaffold"
