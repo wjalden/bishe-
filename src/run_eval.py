@@ -7,6 +7,8 @@ from src.utils.io import load_yaml, read_jsonl, write_json
 from src.data.dataset import MultiLabelTextDataset
 from src.models.registry import build_model
 from src.eval.metrics_flat import compute_micro_macro, to_numpy_binary
+from src.eval.metrics_hier import hierarchical_precision_recall_f1
+from src.eval.metrics_tail import split_head_mid_tail, grouped_macro_f1
 
 
 def main():
@@ -23,6 +25,7 @@ def main():
     ckpt_path = f"{cfg_t['save_dir']}/{cfg_d['name']}_{cfg_m['name']}.pt"
     ckpt = torch.load(ckpt_path, map_location='cpu')
     label2id = ckpt['label2id']
+    label_freq = ckpt.get('label_freq', [1] * len(label2id))
     cfg_m = ckpt['model_cfg']
 
     test_rows = read_jsonl(cfg_d['test_path'])
@@ -42,6 +45,14 @@ def main():
 
     y_true = np.concatenate(ys, axis=0)
     y_pred = to_numpy_binary(np.concatenate(ps, axis=0), 0.5)
+
+    metrics = compute_micro_macro(y_true, y_pred)
+    metrics.update(hierarchical_precision_recall_f1(y_true, y_pred))
+    groups = split_head_mid_tail(label_freq)
+    metrics.update(grouped_macro_f1(y_true, y_pred, groups))
+
+    out_path = f"results/{cfg_d['name']}_{cfg_m['name']}_test_metrics.json"
+    write_json(out_path, metrics)
     metrics = compute_micro_macro(y_true, y_pred)
     write_json(f"results/{cfg_d['name']}_{cfg_m['name']}_test_metrics.json", metrics)
     print(metrics)

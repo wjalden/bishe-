@@ -1,0 +1,4 @@
+name: hb2m
+text_encoder: distilbert-base-uncased
+num_labels: 8
+notes: "ACL Findings 2024 HB2M loss scaffold"

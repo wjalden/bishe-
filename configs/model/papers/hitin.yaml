@@ -1,0 +1,4 @@
+name: hitin
+text_encoder: distilbert-base-uncased
+num_labels: 8
+notes: "ACL 2023 HiTIN scaffold"
