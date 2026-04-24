@@ -1,6 +1,7 @@
 import argparse
 import os
 import numpy as np
+import json
 import torch
 from torch.utils.data import DataLoader
 from tqdm import tqdm
@@ -77,6 +78,14 @@ def main():
     for epoch in range(cfg_t['epochs']):
         model.train()
         pbar = tqdm(train_loader, desc=f"epoch {epoch + 1}")
+    parent_child_pairs = [(0, 4), (0, 5), (1, 6), (1, 7)] if len(label2id) >= 8 else []
+
+    best = -1
+    best_path = f"{cfg_t['save_dir']}/{cfg_d['name']}_{cfg_m['name']}.pt"
+
+    for epoch in range(cfg_t['epochs']):
+        model.train()
+        pbar = tqdm(train_loader, desc=f"epoch {epoch+1}")
         for batch in pbar:
             ids = batch['input_ids'].to(device)
             mask = batch['attention_mask'].to(device)
@@ -84,6 +93,7 @@ def main():
 
             logits = model(ids, mask)
             cls_loss = focal_bce_with_logits(logits, y, gamma=cfg_t.get('focal_gamma', 2.0))
+            cls_loss = focal_bce_with_logits(logits, y)
             hier_loss = hierarchy_consistency_loss(logits, parent_child_pairs)
             loss = cls_loss + cfg_t['lambda_hier'] * hier_loss
 
@@ -112,6 +122,26 @@ def main():
         f"results/{cfg_d['name']}_{cfg_m['name']}_train_metrics.json",
         {'best_macro_f1': best, 'num_labels': len(label2id), 'pairs': len(parent_child_pairs)},
     )
+        model.eval()
+        ys, ps = [], []
+        with torch.no_grad():
+            for batch in val_loader:
+                ids = batch['input_ids'].to(device)
+                mask = batch['attention_mask'].to(device)
+                y = batch['labels'].cpu().numpy()
+                prob = torch.sigmoid(model(ids, mask)).cpu().numpy()
+                ys.append(y)
+                ps.append(prob)
+
+        import numpy as np
+        y_true = np.concatenate(ys, axis=0)
+        y_pred = to_numpy_binary(np.concatenate(ps, axis=0), 0.5)
+        m = compute_micro_macro(y_true, y_pred)
+        if m['macro_f1'] > best:
+            best = m['macro_f1']
+            torch.save({'state_dict': model.state_dict(), 'label2id': label2id, 'model_cfg': cfg_m}, best_path)
+
+    write_json(f"results/{cfg_d['name']}_{cfg_m['name']}_train_metrics.json", {'best_macro_f1': best})
     print(f"saved: {best_path}")
 
 

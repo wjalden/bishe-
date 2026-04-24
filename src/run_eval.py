@@ -53,6 +53,8 @@ def main():
 
     out_path = f"results/{cfg_d['name']}_{cfg_m['name']}_test_metrics.json"
     write_json(out_path, metrics)
+    metrics = compute_micro_macro(y_true, y_pred)
+    write_json(f"results/{cfg_d['name']}_{cfg_m['name']}_test_metrics.json", metrics)
     print(metrics)
 
 
